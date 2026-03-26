@@ -7,4 +7,4 @@ Install system packages first
  sudo apt install -y curl git build-essential pkg-config libssl-dev gcc make`
 
 # Install Rust & Cargo
-# The Seismic toolchain is written in Rust — this takes 2 minutes
+# The Seismic toolchain is written in Rust this takes 2t to 5 minutes to download
