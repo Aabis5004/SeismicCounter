@@ -107,3 +107,19 @@ contract CounterScript is Script {
     }
 }
 ```
+Build Contract
+```bash
+sforge build
+```
+Generate a fresh wallet save the output somewhere safe like save your PV KEY AND ADDRESS
+```bash
+scast wallet new
+```
+# Set environment variables
+```bash
+# Replace the value with YOUR private key from step
+export PRIVATE_KEY="0xYourPrivateKeyHere"
+
+# Seismic testnet RPC URL — don't change this
+export RPC_URL="https://gcp-1.seismictest.net/rpc"
+```
