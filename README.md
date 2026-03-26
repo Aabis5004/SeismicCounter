@@ -120,6 +120,9 @@ scast wallet new
 # Replace the value with YOUR private key from step
 export PRIVATE_KEY="0xYourPrivateKeyHere"
 
-# Seismic testnet RPC URL — don't change this
+# Seismic testnet RPC URL don't change this
 export RPC_URL="https://gcp-1.seismictest.net/rpc"
 ```
+get the faucet from here
+ fund your wallet
+ https://community-faucet.seismictest.net/
