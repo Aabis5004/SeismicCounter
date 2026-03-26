@@ -140,3 +140,15 @@ sforge script script/Counter.s.sol \
 --broadcast \
 --private-key $PRIVATE_KEY
 ```
+Copy the contract address from the output. Save it you'll need it for the next commands
+```bash
+# Replace with YOUR deployed address from the output above
+export CONTRACT="0xYourContractAddressHere"
+```
+verify it
+```bash
+echo $CONTRACT
+```
+You should see:
+
+0xD3E51E37f67fF4386D355CC7aD334D7003b2FA7C
