@@ -36,3 +36,9 @@ source ~/.bashrc
 ```bash
 sfoundryup
 ```
+# Reload terminal again, then verify
+terminal
+```bash
+source ~/.bashrc   # or ~/.zshrc
+sforge --version
+```
