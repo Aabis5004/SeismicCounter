@@ -133,3 +133,10 @@ scast balance \
 $(scast wallet address --private-key $PRIVATE_KEY) \
 --rpc-url $RPC_URL
 ```
+# Deploy to the Seismic testne
+```bash
+sforge script script/Counter.s.sol \
+--rpc-url $RPC_URL \
+--broadcast \
+--private-key $PRIVATE_KEY
+```
