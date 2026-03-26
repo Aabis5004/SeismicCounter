@@ -12,3 +12,7 @@ this guide works on WSL 2 (Ubuntu on Windows) or any Ubuntu 20.04+ machine. You 
  ```bash
 curl https://sh.rustup.rs -sSf | sh
 ```
+Reload your shell so Rust commands work
+```bash
+source $HOME/.cargo/env
+```
