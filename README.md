@@ -152,3 +152,13 @@ echo $CONTRACT
 You should see:
 
 0xD3E51E37f67fF4386D355CC7aD334D7003b2FA7C
+
+Send another shielded write: increment()
+```bash
+Run command correctly
+scast send $CONTRACT "increment()" \
+--rpc-url $RPC_URL \
+--private-key $PRIVATE_KEY
+```
+
+you are done
