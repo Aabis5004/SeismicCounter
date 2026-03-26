@@ -53,3 +53,33 @@ terminal
 ```bash
 sforge test
 ```
+Open the contract file in a text editor
+```bash
+nano src/Counter.sol
+```
+# Replace the entire file with this contract
+Delete everything in the file and paste this:
+```bash
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+
+contract SeismicCounter {
+
+    // Shielded value
+    suint256 number;
+
+    event NumberSet();
+    event Incremented();
+
+    function setNumber(suint256 newNumber) public {
+        number = newNumber;
+        emit NumberSet();
+    }
+
+    function increment() public {
+        // use shielded literal
+        number = number + suint256(1);
+        emit Incremented();
+    }
+}
+```
