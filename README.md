@@ -9,4 +9,5 @@ this guide works on WSL 2 (Ubuntu on Windows) or any Ubuntu 20.04+ machine. You 
   Install Rust & Cargo
  The Seismic toolchain is written in Rust this takes 2t to 5 minutes to download
  
-```curl https://sh.rustup.rs -sSf | sh```
+```curl https://sh.rustup.rs -sSf | sh
+```
