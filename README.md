@@ -32,3 +32,7 @@ curl -L \
 ```bash
 source ~/.bashrc
 ```
+# Run sfoundryup to install all tools (this is the slow step)
+```bash
+sfoundryup
+```
