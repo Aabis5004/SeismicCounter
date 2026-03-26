@@ -28,17 +28,23 @@ curl -L \
   -H "Accept: application/vnd.github.v3.raw" \
   "https://api.github.com/repos/SeismicSystems/seismic-foundry/contents/sfoundryup/install?ref=seismic" | bash
 ```
-# Reload your terminal
+ Reload your terminal
 ```bash
 source ~/.bashrc
 ```
-# Run sfoundryup to install all tools (this is the slow step)
+ Run sfoundryup to install all tools (this is the slow step)
 ```bash
 sfoundryup
 ```
-# Reload terminal again, then verify
+ Reload terminal again, then verify
 terminal
 ```bash
 source ~/.bashrc   # or ~/.zshrc
 sforge --version
+```
+Create and enter the project folder
+terminal
+```bash
+sforge init SeismicCounter
+cd SeismicCounter
 ```
