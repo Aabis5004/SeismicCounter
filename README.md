@@ -84,3 +84,26 @@ contract SeismicCounter {
 }
 ```
 Save: CTRL + X → Y → ENTER
+# write deploy script
+```bash
+nano script/Counter.s.sol
+```
+ Replace the entire file with this contract
+Delete everything in the file and paste this:
+```bash
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.13;
+
+import {Script} from "forge-std/Script.sol";
+import {SeismicCounter} from "../src/Counter.sol";
+
+contract CounterScript is Script {
+    function run() external {
+        vm.startBroadcast();
+
+        SeismicCounter counter = new SeismicCounter();
+
+        vm.stopBroadcast();
+    }
+}
+```
