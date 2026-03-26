@@ -16,3 +16,8 @@ Reload your shell so Rust commands work
 ```bash
 source $HOME/.cargo/env
 ```
+Verify Rust installed correctly
+```bash
+rustc --version
+cargo --version
+```
