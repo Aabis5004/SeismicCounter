@@ -4,4 +4,4 @@
 Install system packages first
  
  ```sudo apt update
- sudo apt install -y curl git build-essential pkg-config libssl-dev gcc make```
+ sudo apt install -y curl git build-essential pkg-config libssl-dev gcc make
