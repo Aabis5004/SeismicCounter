@@ -126,6 +126,7 @@ export RPC_URL="https://gcp-1.seismictest.net/rpc"
 get the faucet from here
  fund your wallet
  https://community-faucet.seismictest.net/
+ 
 check bal
 ```bash
 scast balance \
