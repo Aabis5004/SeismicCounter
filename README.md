@@ -21,3 +21,10 @@ Verify Rust installed correctly
 rustc --version
 cargo --version
 ```
+# Install Seismic Foundry
+This installs sforge, sanvil, and ssolc expect 5–20 minutes
+```bash
+curl -L \
+  -H "Accept: application/vnd.github.v3.raw" \
+  "https://api.github.com/repos/SeismicSystems/seismic-foundry/contents/sfoundryup/install?ref=seismic" | bash
+```
