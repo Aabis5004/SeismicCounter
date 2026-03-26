@@ -48,3 +48,8 @@ terminal
 sforge init SeismicCounter
 cd SeismicCounter
 ```
+Run a quick test to confirm everything works
+terminal
+```bash
+sforge test
+```
